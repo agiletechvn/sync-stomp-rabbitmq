@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Food" representedClassName="DNFood" syncable="YES">
+        <attribute name="cat" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="YES"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <entity name="FoodCategory" representedClassName="DNFoodCategory" syncable="YES">
+        <attribute name="foodCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Food" positionX="88" positionY="237" width="128" height="90"/>
+        <element name="FoodCategory" positionX="-243" positionY="33" width="128" height="105"/>
+    </elements>
+</model>
