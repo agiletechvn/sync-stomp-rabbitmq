@@ -1,8 +1,6 @@
 ## App
 
-[Reference](https://github.com/hyperoslo/Sync/tree/master/Examples/DesignerNews)
-
-![Demo](https://www.youtube.com/watch?v=Kur4gvJ5NTA)
+[![Demo](https://img.youtube.com/vi/Kur4gvJ5NTA/0.jpg)](https://www.youtube.com/watch?v=Kur4gvJ5NTA)
 
 ## JSON
 
