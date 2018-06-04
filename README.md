@@ -29,13 +29,11 @@
 }
 ```
 
+```c
 [Sync changes:JSON[@"stories"]
 inEntityNamed:@"Story"
 dataStack:dataStack
 completion:^(NSError \*error) {
 [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }];
-
-```
-
 ```
